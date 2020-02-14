@@ -87,7 +87,6 @@ def main(args):
         finally:
             pass
 
-    import time
 
     logging.info('creating Markov chains from %s, %s at %s' % (args.legitimate_model, args.spam_model, time.asctime()))
 
